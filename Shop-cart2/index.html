@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Shop</div>
+    <nav>
+      <a href="#">Snap Bars</a>
+      <a href="#">Wax Shapes</a>
+      <a href="#">Collections</a>
+      <a href="#">About Us</a>
+    </nav>
+    <div class="cart-search">
+      <input type="text" placeholder="Search">
+      <span class="cart-icon">🛒</span>
+    </div>
+  </header>
+
+  <!-- Section des produits -->
+  <section class="product-section">
+    <h2>Latest Melts</h2>
+    <div class="product-container">
+      <!-- Produit 1 -->
+      <div class="product-card" data-price="20.00">
+        <img src="Cat2.PNG" alt="Little Pink Crackers">
+        <h3>Princess</h3>
+        <p>20.00 TND</p>
+        <div class="quantity-controls">
+          <button class="decrease">-</button>
+          <span class="quantity">0</span>
+          <button class="increase">+</button>
+        </div>
+        <button class="like-button">♡</button>
+        <button class="remove-button">Remove</button>
+      </div>
+
+      <!-- Produit 2 -->
+      <div class="product-card" data-price="15.00">
+        <img src="ca1.png" alt="Celestial Whisper">
+        <h3>Celestial Whisper</h3>
+        <p>15.00 TND</p>
+        <div class="quantity-controls">
+          <button class="decrease">-</button>
+          <span class="quantity">0</span>
+          <button class="increase">+</button>
+        </div>
+        <button class="like-button">♡</button>
+        <button class="remove-button">Remove</button>
+      </div>
+
+      <!-- Produit 3 -->
+      <div class="product-card" data-price="18.00">
+        <img src="Cat3.PNG" alt="Mystic Nights">
+        <h3>Mystic Nights</h3>
+        <p>18.00 TND</p>
+        <div class="quantity-controls">
+          <button class="decrease">-</button>
+          <span class="quantity">0</span>
+          <button class="increase">+</button>
+        </div>
+        <button class="like-button">♡</button>
+        <button class="remove-button">Remove</button>
+      </div>
+
+      <!-- Produit 4 -->
+      <div class="product-card" data-price="22.00">
+        <img src="Cat4.PNG" alt="Sunset Bliss">
+        <h3>Sunset Bliss</h3>
+        <p>22.00 TND</p>
+        <div class="quantity-controls">
+          <button class="decrease">-</button>
+          <span class="quantity">0</span>
+          <button class="increase">+</button>
+        </div>
+        <button class="like-button">♡</button>
+        <button class="remove-button">Remove</button>
+      </div>
+    </div>
+
+    <!-- Affichage du prix total -->
+    <div class="total-price">
+      <h2>Total: <span id="total-price">0.00</span> TND</h2>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Shopping Bubu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
